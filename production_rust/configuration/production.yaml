@@ -1,0 +1,9 @@
+application: 
+  host: 0.0.0.0
+  base_url: ${PRODUCTION_URL}
+email_client:
+  base_url: "https://api.postmarkapp.com"
+  sender_email: ${POSTMARK_EMAIL} 
+  auth_token: ${POSTMARK_API_KEY}
+
+  
