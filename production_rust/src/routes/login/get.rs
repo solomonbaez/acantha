@@ -232,10 +232,8 @@ pub async fn login_form(flash_messages: IncomingFlashMessages) -> HttpResponse {
                 <header>
                     <nav>
                         <ul>
-                            <li><a href="/home">Home</a></li>
-                            <li><a href="/blog">Blog</a></li>
                             <li><a href="/subscriptions">Subscribe</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="/login">Login</a></li>
                         </ul>
                     </nav>
                 </header>
@@ -278,7 +276,6 @@ pub async fn login_form(flash_messages: IncomingFlashMessages) -> HttpResponse {
             
                 <footer>
                     <p>&copy; 2023 Solomon Baez</p>
-                    <p><a href="/login">admin login</a></p>
                 </footer>
             </body>
             </html>"#

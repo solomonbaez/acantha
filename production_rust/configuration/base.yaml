@@ -1,17 +1,17 @@
 application:
   port: 8000
   host: 0.0.0.0
-  hmac_secret: ${BASE_HMAC} 
+  hmac_secret: "verylongverysecretstringverylongverysecretstringverylongverysecretstring"
 database:
-  host: ${DATABASE_HOST}
-  port: ${DATABASE_PORT}
-  username: ${DATABASE_USERNAME}
-  password: ${DATABASE_PASSWORD}
-  database_name: ${DATABASE_NAME}
+  host: "localhost"
+  port: "5432"
+  username: "postgres"
+  password: "password"
+  database_name: "newsletter"
   require_ssl: false
 email_client:
   base_url: "locahost"
   sender_email: "test@gmail.com"
   auth_token: "gloria-invigilata"
   timeout_milliseconds: 10000
-redis_uri: ${REDIS_URI}
+redis_uri: "redis://127.0.0.1:6379"
