@@ -23,7 +23,7 @@ pub async fn manage_settings_form(
         body {{
             font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #3B5323;
+            background-color: #000000;
             display: flex;
             justify-content: center;
             align-items: center;

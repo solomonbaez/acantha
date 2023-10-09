@@ -31,7 +31,7 @@ pub async fn admin_dashboard(
         body {{
             font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #3B5323;
+            background-color: #000000;
             display: flex;
             justify-content: center;
             align-items: center;
