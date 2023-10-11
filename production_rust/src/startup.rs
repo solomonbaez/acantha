@@ -2,9 +2,9 @@ use crate::authentication::reject_anonymous_users;
 use crate::configuration::{DatabaseSettings, Settings};
 use crate::email_client::EmailClient;
 use crate::routes::{
-    admin_dashboard, change_key_state, change_password,
-    change_password_form, confirm, get_subscribe, health_check, log_out, login,
-    login_form, manage_settings_form, new_newsletter_form, publish_newsletter, subscribe,
+    admin_dashboard, change_key_state, change_password, change_password_form, confirm,
+    get_subscribe, health_check, log_out, login, login_form, manage_settings_form,
+    new_newsletter_form, publish_newsletter, subscribe,
 };
 use actix_session::storage::RedisSessionStore;
 use actix_session::SessionMiddleware;
