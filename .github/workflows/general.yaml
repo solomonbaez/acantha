@@ -31,7 +31,7 @@ jobs:
         image: postgres:latest
         env:
           POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: ultima
+          POSTGRES_PASSWORD: password
           POSTGRES_DB: newsletter
         ports:
           - 5432:5432
@@ -91,7 +91,7 @@ jobs:
         image: postgres:14
         env:
           POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: ultima
+          POSTGRES_PASSWORD: password
           POSTGRES_DB: newsletter
         ports:
           - 5432:5432
@@ -131,7 +131,7 @@ jobs:
         image: postgres:14
         env:
           POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: ultima
+          POSTGRES_PASSWORD: password
           POSTGRES_DB: newsletter
         ports:
           - 5432:5432
