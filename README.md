@@ -1,16 +1,16 @@
 # Hyacinth Newsletter Service
 
-Hyacinth is a full-stack, cloud-native, enterprise-level newsletter service built in Rust, based on the book `Zero To Production in Rust` by [Luca Palmieri](https://github.com/LukeMathWalker). It integrates containerized deployment via Docker with PostgreSQL as a database and Redis for caching and session support. The service is designed to be secure, scalable, and highly customizable.
+Hyacinth is a full-stack, cloud-native, enterprise-level newsletter service built in Rust, integrating containerized deployment via Docker with PostgreSQL as a database and Redis for caching and session support. The service is designed to be secure, scalable, and highly customizable.
 
 ## Table of Contents
 
 - [Pre-requisites](#pre-requisites)
-  - [Installation](#installation)
     - [Windows](#windows)
     - [Linux](#linux)
     - [macOS](#macos)
 - [Configuration](#configuration)
 - [Usage](#usage)
+  - [Launch](#launch)
   - [Admin Interface](#admin-interface)
 - [Contributing](#contributing)
 - [License](#license)
@@ -112,6 +112,7 @@ If you've adjusted `base.yaml` you'll need to configure environment variables to
     ```
 
 ## Usage
+### Launch
 
 1. Initialize the PostgreSQL and Redis containers:
 
@@ -132,6 +133,7 @@ cargo build
 cargo run
 ```
 
+### Admin interface
 Access the admin interface at http://127.0.0.1:8000/login
 
     Default account:
@@ -150,5 +152,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 6. Open a pull request to the main repository.
 
 ## License
+This project is inspired by the book `Zero To Production in Rust` by [Luca Palmieri](https://github.com/LukeMathWalker).
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
