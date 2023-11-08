@@ -1,6 +1,6 @@
-# Hyacinth Newsletter Service
+# Acantha
 
-Hyacinth is a full-stack, cloud-native, enterprise-level newsletter service built in Rust, integrating containerized deployment via Docker with PostgreSQL as a database and Redis for caching and session support. The service is designed to be secure, scalable, and highly customizable.
+Acantha is a full-stack, cloud-native, enterprise-level newsletter service built in Rust, integrating containerized deployment via Docker with PostgreSQL as a database and Redis for caching and session support. The service is designed to be secure, scalable, and highly customizable.
 
 ## Table of Contents
 
@@ -56,7 +56,7 @@ cargo install --version="~0.7" sqlx-cli --no-default-features --features rustls,
 
 ## Configuration
 
-The Hyacinth Newsletter Service can be customized to suit your specific requirements by adjusting the configuration in the `base.yaml` file located within `production_rust/configurations`. Below are the key configuration options and their explanations:
+The Service can be customized to suit your specific requirements by adjusting the configuration in the `base.yaml` file located within `production_rust/configurations`. Below are the key configuration options and their explanations:
 
 ### Application Configuration
 
